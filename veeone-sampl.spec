@@ -2,12 +2,12 @@
 
 Summary:	Old-school polyphonic sampler
 Name:		veeone-sampl
-Version:	0.2.0
+Version:	0.4.0
 Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://downloads.sourceforge.net/%{rname}/%{rname}-%{version}.tar.gz
-# Source0-md5:	7dbff3ca0afa27bf3f2173ef365226b4
+# Source0-md5:	dbd306fa2aeb1ac005a7467028b9c779
 URL:		http://samplv1.sourceforge.net
 BuildRequires:	QtDBus-devel
 BuildRequires:	QtGui-devel
