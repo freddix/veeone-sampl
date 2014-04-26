@@ -53,7 +53,10 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog README TODO
 %attr(755,root,root) %{_bindir}/%{rname}_jack
 %{_desktopdir}/*.desktop
-%{_iconsdir}/hicolor/*/apps/%{rname}.png
+%{_iconsdir}/hicolor/*/apps/*.png
+%{_iconsdir}/hicolor/*/apps/*.svg
+%{_iconsdir}/hicolor/*/mimetypes/*.png
+%{_iconsdir}/hicolor/*/mimetypes/*.svg
 
 %dir %{_libdir}/lv2/%{rname}.lv2
 %attr(755,root,root) %{_libdir}/lv2/%{rname}.lv2/*.so
